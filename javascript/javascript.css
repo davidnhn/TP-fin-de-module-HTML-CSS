@@ -1,0 +1,48 @@
+.container-js {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1300px;
+  margin: 0 auto 96px;
+  column-gap: 40px;
+  row-gap: 96px;
+}
+
+.title-js {
+  grid-column: 1 / -1;
+  align-self: center;
+  justify-self: center;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+article {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 15px;
+}
+
+.img-js {
+  text-align: center;
+}
+.img-js img {
+  width: 50%;
+}
+.execution img {
+  width: 100%;
+}
+
+.intro-js,
+.pratique-js {
+  grid-column: 1 / -1;
+}
+
+.articles-quoi-faire {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
