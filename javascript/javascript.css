@@ -1,0 +1,78 @@
+.container-js {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1300px;
+  margin: 0 auto 96px;
+  column-gap: 40px;
+  row-gap: 96px;
+}
+
+.title-js {
+  grid-column: 1 / -1;
+  align-self: center;
+  justify-self: center;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  width: 70%;
+  background-color: #ced4da;
+}
+
+.js-icon {
+  height: 24px;
+  width: 24px;
+}
+article {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 15px;
+}
+
+.img-js {
+  text-align: center;
+}
+.img-js img {
+  width: 50%;
+  /* border-radius: %; */
+}
+.execution img {
+  width: 100%;
+}
+
+.intro-js,
+.pratique-js {
+  grid-column: 1 / -1;
+}
+
+.articles-quoi-faire {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+p a:link,
+p a:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0 5px;
+  background-color: #339af0;
+  color: #fff;
+  border-radius: 5px;
+}
+
+@keyframes earthquack {
+  from {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+p a:hover {
+  animation: earthquack 0.1s infinite alternate;
+}
