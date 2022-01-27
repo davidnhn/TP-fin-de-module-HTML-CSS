@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <a href="./accueil.html"><img src="../images/logo" alt="Logo" /></a>
+      <a href="../accueil.html"><img src="../images/logo" alt="Logo" /></a>
       <nav>
         <ul>
           <li><a href="../accueil.html">ACCUEIL</a></li>
@@ -23,7 +23,10 @@
     </header>
     <main>
       <div class="container-js">
-        <h1 class="title-js">JavaScript</h1>
+        <h1 class="title-js">
+          JavaScript
+          <ion-icon class="js-icon" name="logo-javascript"></ion-icon>
+        </h1>
 
         <article>
           <div>
@@ -56,10 +59,11 @@
                 Commençons par un bref récapitulatif de ce qui se passe
                 lorsqu'une page web se charge dans le navigateur (voir Comment
                 fonctionnent vraiment les CSS). Quand la page se charge, les
-                codes HTML, CSS et JavaScript s'exécutent dans un environnement
-                (l'onglet du navigateur). C'est un peu comme une usine qui prend
-                des matières premières (le code) et sort un produit (la page
-                web).
+                codes <a href="../html/html.html">HTML</a>,
+                <a href="../css/css.html">CSS</a> et JavaScript s'exécutent dans
+                un environnement (l'onglet du navigateur). C'est un peu comme
+                une usine qui prend des matières premières (le code) et sort un
+                produit (la page web).
               </p>
               <p>
                 Le JavaScript est exécuté par le moteur JavaScript du
@@ -91,5 +95,13 @@
         </ul>
       </nav>
     </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
