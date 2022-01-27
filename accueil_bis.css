@@ -1,0 +1,132 @@
+header, main{
+    margin-bottom: 50px;
+}
+
+form{
+    text-align: center;
+    
+}
+
+h2, h3, h4, p{
+    text-align: center;
+    margin: 30px 0;
+} 
+
+main > div:nth-child(n){
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+#top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+form div{
+    margin: 30px 0px;
+    border: none;
+}
+
+#top > div:nth-child(n){
+    background-color: rgb(230, 230, 230);
+}
+
+#filieres{
+    background-color: rgb(230, 230, 230);
+    padding-bottom: 30px;
+}
+
+#contenu{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+div a{
+    display: inline-block;
+    color: black;
+    text-decoration: none; 
+}
+
+#presentation_chiffres > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form label, form button{
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(160, 151, 151);
+}
+
+form input, form button, form select{
+    border : none;
+    height: 40px;
+}
+
+form input{
+    width: 80%;
+}
+
+form button{
+    width: 70%;
+    background-color: red;
+}
+
+form select{
+    width: 50%;
+}
+
+#altern{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: red;
+}
+
+button:hover{
+    color: red;
+    background-color: rgb(160, 151, 151);
+}
+
+button:active{
+    color: blue;
+}
+
+#contenu > div:nth-child(n){
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

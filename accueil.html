@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP HTML CSS</title>
     <link rel="stylesheet" href="./accueil.css">
+    <link rel="stylesheet" href="./accueil_bis.css">
 </head>
 <body>
     <header>
@@ -19,10 +20,104 @@
                 <li><a href="contact/contact.html">CONTACT</a></li>
             </ul>
         </nav>
+        
     </header>
 
+    <main>
+        <div id="top">
+            <div id="recherche">
+                <form action="">
+                    <h2>RECHERCHER UNE FORMATION</h2>
+                    <div><label for="mot">Par mots clés</label></div>
+                    <div><input type="text" id="mot"></div>
+                    <div><label for="profil">Par profil</label></div>
+                    <div>
+                        <select name="prof" id="profil">
+                            <option value="Recherchez">Recherchez</option>
+                            <option value="Demandeur d'emploi">Demandeur d'emploi</option>
+                            <option value="Entreprises">Entreprises</option>
+                            <option value="Salariés">Salariés</option>
+                            <option value="Tous profils">Tous profils</option>
+                            <option value="Alternants">Alternants</option>
+                        </select>
+                    </div>
+                    <div><label for="secteur">Par secteur</label></div>
+                    <div>
+                        <select name="sect" id="secteur">
+                            <option value="Recherchez">Recherchez</option>
+                            <option value="Santé & Social">Santé & Social</option>
+                            <option value="Informatique">Informatique</option>
+                            <option value="Tertiaire">Tertiaire</option>
+                            <option value="Indutries & Bâtiment">Indutries & Bâtiment</option>
+                            <option value="Carrières & Emploi">Carrières & Emploi</option>
+                        </select>
+                    </div>
+                    <div><button type="submit">TROUVER</button></div>
+                </form>
+            </div>
     
+            <div id="altern">
+                <h2>SE FORMER EN ALTERNANCE</h2>
+                <a href=""><img src="./images/Alter-2_0.jpg" alt="Alternance"></a><br>
+                <a href=""><h2>Les actions de formation à destination des demandeurs d'emploi</h2></a>
+            </div>
+        </div>
 
+        
+        <div id="filieres">
+            <h2>NOS FILIÈRES</h2>
+            <div id="contenu">
+                <div>
+                    <a href="santé"></a><img src="./images/services_personnes_sante_social.png" alt="Santé"><br>
+                    <a href="santé">Filière Santé & Socila</a>
+                </div>
+                <div>
+                    <a href="tertiaire"><img src="./images/tertiaire.png" alt="Tertiaire"></a><br>
+                    <a href="tertiaire">Filière Tertiaire</a>
+                </div>
+                <div>
+                    <a href="informatique"><img src="./images/tertiaire.png" alt="Pôle Numérique"></a><br>
+                    <a href="informatique">Pôle Numérique</a>
+                </div>
+                <div>
+                    <a href="electricité"><img src="./images/electricite.png" alt="Electricité"></a><br>
+                    <a href="electricité">Filière Electricité Industrielle</a>
+                </div>
+                <div>
+                    <a href="Systèmes"><img src="./images/electricite.png" alt="SE"></a><br>
+                    <a href="Systèmes">Filières Systèmes Embarqués</a>
+                </div>
+                <div>
+                    <a href="equip"><img src="./images/electricite.png" alt="Equipement"></a><br>
+                    <a href="equip">Filière 2nd OEuvre Equipement</a>
+                </div>
+                <div>
+                    <a href="secu"><img src="./images/electricite.png" alt="Securité"></a><br>
+                    <a href="secu">Filières Qualité & Sécurité</a>
+                </div>
+                <div>
+                    <a href="rh"><img src="./images/accompagnement_rh.png" alt="RH"></a><br>
+                    <a href="rh">Accompagnement RH</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="presentation_chiffres">
+            <h3>ADRAR Formation</h3>
+            <p>Avec près de 300 modules de formation, l’ADRAR figure parmi les leaders de la formation 
+                professionnelle en Occitanie. L'ADRAR Formation développe vos compétences et déploie de véritables 
+                services auprès des entreprises, des salariés et des demandeurs d'emploi.
+            </p>
+            <ul>
+                <li>6298 stagiaires formés</li>
+                <li>953881 heures dispensées</li>
+                <li>84 % de réussite aux certifications</li>
+                <li>79 % de Reclassement professionnel</li>
+                <li>58 certifications</li>
+            </ul>
+        </div>
+    </main>
+    
     <footer>
         <nav>
             <ul>
