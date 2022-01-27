@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP HTML CSS</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="../accueil.css">
+</head>
+<body>
+    <header>
+        <a href="accueil.html"><img src="../images/logo" alt="Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="./accueil.html">ACCUEIL</a></li>
+                <li><a href="html/html.html">HTML</a></li>
+                <li><a href="css/css.html">CSS</a></li>
+                <li><a href="javascript/javascript.html">JAVASCRIPT</a></li>
+                <li><a href="contact/contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <h1>CONTACTEZ NOUS</h1>
+        <!--formulaire de contact-->
+        <form method="post" action="monprogramme.php">
+            <label for="text">Votre nom :</label></br>
+            <input type="text" name="nom" placeholder="Votre nom" maxlength="20" id="nom"></br>
+            <label for="text">Votre Prénom :</label></br>
+            <input type="text" name="prénom" placeholder="Votre prénom" maxlength="20" id="prenom"></br>
+            <label for="text">Formation Choisie :</label></br>
+            <input type="text" name="formation choisie" placeholder="formation choisie" maxlength="100" id="formation"></br>
+            <label for="liste">Vous êtes :</label>
+            <select name="liste" id="liste">
+                <option value="Salarié">Salarié</option>
+                <option value="Alternant">Alternant</option>
+                <option value="Demandeur d'emploi">Demandeur d'emploi</option>
+                <option value="Partenaire">Partenaire</option>
+                <option value="Service RH">Service RH</option>
+            </select></br>
+            <label for="text">Vous pouvez joindre votre CV :</label></br>
+            <input type="file" accept=".pdf, .txt, .doc" placeholder="Choisir un Fichier" id="file"></br>
+            <label for="text">Votre e-mail :</label></br>            
+            <input type="email" name="email" placeholder="votrenom@mail.com" id="email"></br>
+            <label for="text">Votre numéro de téléphone :</label></br>
+            <input type="tel" name="telephone" placeholder="00.00.00.00.00" id="telephone"></br>
+            <label for="text">Votre Code Postal :</label></br>
+            <input type="number" name="code postal" placeholder="31000" maxlength="5" id="codepostal"></br>
+            <label for="text">Votre Adresse :</label></br>
+            <textarea placeholder="Adresse" cols="70" rows="10" id="Adresse"></textarea></br>
+            <label for="text">Message :</label></br>
+            <textarea placeholder="Message" cols="70" rows="10" id="Message"></textarea></br>            
+            <input type="checkbox" id="checkbox"/>
+            <label for="checkbox">J'accepte que Adrar Formation et ses prestataires collectent et utilisent les données personnelles renseignées dans ce formulaire. Pour plus d'informations, vous pouvez consulter notre page politique de protection des données.</label></br>
+            <input type="submit" value="Envoyer" id="transferer"></br>
+        </form>
+        <!--adresses-->
+        <div class="adresse1">
+        <p class="adresse"><strong> FORMATION (SIÈGE)</strong></br>
+            2 Rue Irène Joliot Curie
+            Parc Technologique du Canal
+            31 520 Ramonville Saint Agne
+            Tél. : 05 62 19 20 80 
+            adrarinfo@adrar-formation.com</p>
+        <p class="adresse"><strong>ADRAR MONTPELLIER</strong></br>
+            4657 Rue de la Jeune Parque
+            Garosud
+            34070 Montpellier
+            Tél. : 04 81 09 89 44
+            montpellierinfo@adrar-formation.com</p>
+        <p class="adresse"><strong>ADRAR MONTPELLIER</strong></br>
+            4657 Rue de la Jeune Parque
+            Garosud
+            34070 Montpellier
+            Tél. : 04 81 09 89 44
+            montpellierinfo@adrar-formation.com</p>
+        <p class="adresse"><strong>ADRAR MONTPELLIER</strong></br>
+            4657 Rue de la Jeune Parque
+            Garosud
+            34070 Montpellier
+            Tél. : 04 81 09 89 44
+            montpellierinfo@adrar-formation.com</p></div>
+        <div id="adresse2">    
+        <p class="adresse"><strong> FORMATION (SIÈGE)</strong></br>
+            2 Rue Irène Joliot Curie
+            Parc Technologique du Canal
+            31 520 Ramonville Saint Agne
+            Tél. : 05 62 19 20 80 
+            adrarinfo@adrar-formation.com</p>
+        <p class="adresse"><strong>ADRAR MONTPELLIER</strong></br>
+            4657 Rue de la Jeune Parque
+            Garosud
+            34070 Montpellier
+            Tél. : 04 81 09 89 44
+            montpellierinfo@adrar-formation.com</p>
+        <p class="adresse"><strong>ADRAR MONTPELLIER</strong></br>
+            4657 Rue de la Jeune Parque
+            Garosud
+            34070 Montpellier
+            Tél. : 04 81 09 89 44
+            montpellierinfo@adrar-formation.com</p>
+        <p class="adresse"><strong>ADRAR MONTPELLIER</strong></br>
+            4657 Rue de la Jeune Parque
+            Garosud
+            34070 Montpellier
+            Tél. : 04 81 09 89 44
+            montpellierinfo@adrar-formation.com</p>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.6223764363654!2d1.4860669161665117!3d43.55191296699134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebdd63de81871%3A0x6c14cda58609eb63!2sADRAR%20Formation%20-%20P%C3%B4le%20NUMERIQUE!5e0!3m2!1sfr!2sfr!4v1643289583998!5m2!1sfr!2sfr" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </main>
+
+    
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Vie privée</a></li>
+                <li><a href="#">Conditions générales</a></li>
+                <li><a href="#">Engagements Politique</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
